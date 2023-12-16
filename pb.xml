@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Copyright (c) 2023 Szymon 'polemon' Bereziak <polemon@gmail.com>
+
+  Usage of the works is permitted provided that this instrument is retained with the works,
+  so that any entity that uses the works is notified of this instrument.
+
+  DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.
+-->
+<style-scheme id="pb" _name="Pb" version="1.0">
+  <author>Polemon</author>
+  <_description>Heavy and Dark</_description>
+
+<!-- Colors  -->
+  <color name="gray20"        value="#333333" />
+  <color name="gray70"        value="#b3b3b3" />
+  <color name="white"         value="#ffffff" />
+  <color name="black"         value="#171412" />
+  <color name="gunmetal"      value="#2a3439" />
+  <color name="green"         value="#7cc6A2" />
+  <color name="aqua"          value="#00d8ff" />
+  <color name="blue"          value="#398ee6" />
+  <color name="lightskyblue"  value="#87cefa" />
+  <color name="purple"        value="#b067bb" />
+  <color name="orange"        value="#e67321" />
+  <color name="carbon"        value="#232323" />
+  <color name="salmon"        value="#fa8072" />
+  <color name="steelblue"     value="#4682b4" />
+  <color name="orangered"     value="#ff4500" />
+  <color name="bistre"        value="#3d2b1f" />
+  <color name="red"           value="#ff0000" />
+
+<!-- Global Settings -->
+  <style name="text"
+    foreground="white"
+    background="black" />
+
+  <style name="cursor"
+    foreground="red" />
+
+  <style name="current-line"
+    background="carbon" />
+
+  <style name="line-numbers"
+    foreground="gray70"
+    background="carbon" />
+
+<!-- Bracket Matching -->
+  <style name="bracket-match"
+    background="steelblue" />
+
+  <style name="bracket-mismatch"
+    background="purple"
+    bold="true" />
+
+  <style name="search-match"
+    foreground="bistre"
+    background="orangered" />
+
+<!-- Comments -->
+  <style name="def:comment"
+    foreground="gray20"
+    italics="true" />
+
+  <style name="def:shebang"
+    foreground="purple"
+    italics="true" />
+
+  <style name="def:doc-comment-element"
+    foreground="gray20"
+    bold="true"
+    italics="true" />
+
+<!-- Constants and Variables-->
+  <style name="def:constant"
+    foreground="blue" />
+
+  <style name="def:string"
+    foreground="green"
+    bold="true" />
+
+  <style name="def:special-char"
+    foreground="purple" />
+
+  <style name="def:special-constant"
+    foreground="purple"
+    bold="true" />
+
+  <style name="def:boolean"
+    foreground="purple"
+    bold="true" />
+
+  <style name="def:number"
+    foreground="white" />
+
+  <style name="def:floating-point"
+    foreground="white" />
+
+  <style name="def:keyword"
+    foreground="orange"
+    bold="true" />
+
+  <style name="def:builtin"
+    foreground="lightskyblue" />
+
+  <style name="def:variable"
+    foreground="purple" />
+  
+<!-- Identifiers -->
+  <style name="def:identifier"
+    foreground="purple" />
+
+<!-- Statements -->
+  <style name="def:statement"
+    foreground="lightskyblue" />
+
+<!-- Types -->
+  <style name="def:type"
+    foreground="blue" />
+  
+<!-- Others -->
+  <style name="def:error"
+    foreground="white"
+    background="red"
+    bold="true" />
+
+  <style name="def:note"
+    foreground="gunmetal"
+    background="orange"
+    bold="true" />
+
+  <style name="def:net-address-in-comment"
+    foreground="blue"
+    italic="true"
+    underline="true" />
+
+  <style name="def:preprocessor"
+    foreground="purple"
+    bold="true" />
+
+<!-- Unknown? -->
+  <style name="def:specials"
+    foreground="white"
+    background="purple" />
+
+<!-- C Styles -->
+  <style name="c:preprocessor"
+    foreground="purple"
+    map-to="def:special-char" />
+
+<!-- Diff Styles -->
+  <style name="diff:ignore"
+    foreground="gray70" />
+
+<!-- Ruby Styles -->
+  <style name="ruby:module-handler"
+    foreground="blue" />
+
+  <style name="ruby:symbol"
+    foreground="blue" />
+
+  <style name="ruby:special-variable"
+    foreground="orange"
+    bold="true" />
+
+  <style name="ruby:predefined-variable"
+    foreground="purple" />
+
+  <style name="ruby:regex"
+    foreground="green" />
+
+<!-- SH Styles -->
+  <style name="sh:function"
+    foreground="salmon" />
+
+  <style name="sh:variable1"
+    foreground="purple" />
+
+  <style name="sh:variable2"
+    foreground="purple" />
+
+  <style name="sh:others"
+    map-to="text" />
+  
+<!-- XML Styles -->
+  <style name="xml:attribute-name"
+    foreground="purple" />
+
+  <style name="xml:element-name"
+    foreground="blue" />
+
+</style-scheme>
