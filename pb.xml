@@ -15,7 +15,8 @@
   <color name="gray20"        value="#333333" />
   <color name="gray70"        value="#b3b3b3" />
   <color name="white"         value="#ffffff" />
-  <color name="black"         value="#171412" />
+  <color name="black"         value="#010b13" />
+  <color name="elderberry"  value="#17182b" />
   <color name="gunmetal"      value="#2a3439" />
   <color name="green"         value="#7cc6A2" />
   <color name="aqua"          value="#00d8ff" />
@@ -26,6 +27,7 @@
   <color name="carbon"        value="#232323" />
   <color name="salmon"        value="#fa8072" />
   <color name="steelblue"     value="#4682b4" />
+  <color name="lightbluesilk" value="#044f67" />
   <color name="orangered"     value="#ff4500" />
   <color name="bistre"        value="#3d2b1f" />
   <color name="red"           value="#ff0000" />
@@ -39,7 +41,7 @@
     foreground="red" />
 
   <style name="current-line"
-    background="carbon" />
+    background="elderberry" />
 
   <style name="line-numbers"
     foreground="gray70"
@@ -47,7 +49,7 @@
 
 <!-- Bracket Matching -->
   <style name="bracket-match"
-    background="steelblue" />
+    background="lightbluesilk" />
 
   <style name="bracket-mismatch"
     background="purple"
@@ -60,16 +62,16 @@
 <!-- Comments -->
   <style name="def:comment"
     foreground="gray20"
-    italics="true" />
+    italic="true" />
 
   <style name="def:shebang"
     foreground="purple"
-    italics="true" />
+    italic="true" />
 
   <style name="def:doc-comment-element"
     foreground="gray20"
     bold="true"
-    italics="true" />
+    italic="true" />
 
 <!-- Constants and Variables-->
   <style name="def:constant"
